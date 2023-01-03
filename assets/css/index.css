@@ -1,0 +1,56 @@
+body{
+  border-color: rgb(25,27,29);
+  background: url(../img/BG.png),url(../img/Background\ color\ Grading.jpg)  ;
+   background-size: 70%,cover;
+   background-position: center;
+   background-repeat: no-repeat,no-repeat;
+
+ 
+}
+.navbar{
+  background-color: #fff;
+  font-family: 'Noto Sans Sinhala', sans-serif;font-weight: bold;
+}
+
+.nav-link {
+    display: inline-block;
+    position: relative;
+
+  }
+  
+  .nav-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+  #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+.containerforhead{
+  padding: 30px;
+  height:200px;
+  background-color: rgba(0, 0, 0, 0.104);
+  border-radius: 0px 20px 0px 20px;
+  scrollbar-shadow-color: blue;
+}
+.containerforhead:hover{
+  
+  border: solid 2px rgba(0, 0, 0, 0.108);
+  transition: transform 0.5 ease-in-out;
+ 
+
+}
+
+footer{
+  background-color: #fff;
+}
