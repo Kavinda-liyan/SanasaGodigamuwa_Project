@@ -4,6 +4,7 @@ body{
      background-size: 70%,cover;
      background-position: center,center;
      background-repeat: no-repeat,no-repeat;
+     font-family: 'Noto Sans Sinhala', sans-serif;
   
    
   }
@@ -36,8 +37,29 @@ body{
       transform: scaleX(1);
       transform-origin: bottom left;
     }
-
-    hr{
-      height :10px;
+    .cards{
+      height:210px;
+      width:210px;
+      background-color:rgba(0, 0, 0, 0.148);
+      border-radius: 10px;
+     
     }
+    .cards img{
+      margin:auto;
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-bottom: 5px;
+      margin-right: 5px;
+      border-radius: 10px;
+    
+    }
+    p{
+      
+      margin-right: 10px;
+      font-size: 20px;
+    }
+    footer{
+      background-color: #fff;
+    }
+
 
