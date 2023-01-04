@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider-Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
 </head>
 
 <body>

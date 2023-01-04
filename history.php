@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider-Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/history.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
 </head>
 <body>
     <!-- NAVBAR -->
@@ -30,13 +31,13 @@
     <section> 
         <div class="container-fluid">
         <div class="row">
-            <div class="col-4"> 
+            <div class="col-md-4"> 
                 <div class=" cards">
                 <img  src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt="picture 1" height="200px" width="200px" class="shadow">
                 </div>
                 
             </div>
-            <div class="col-8">
+            <div class="col-md-8 ">
                                 <table class="table">
                     <thead class="thead-dark">
                         <tr>
@@ -75,13 +76,13 @@
         <hr>
         <h4 class="text-center" style="font-family: 'Noto Sans Sinhala', sans-serif;">ආරම්භක නිළධාරි මණ්ඩලය.</h4>
         <div class="row">
-            <div class="col-4"> 
+            <div class="col-md-4"> 
                 <div class=" cards">
                 <img  src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt="picture 1" height="200px" width="200px" class="shadow">
                 </div>
                 
             </div>
-            <div class="col-8">
+            <div class="col-md-8">
                                 <table class="table">
                     <thead class="thead-dark">
                         <tr>
@@ -131,13 +132,13 @@
         <hr>
         <h4 class="text-center" style="font-family: 'Noto Sans Sinhala', sans-serif;">බැංකු සේවා ආරම්භ කිරීම.</h4>
         <div class="row">
-            <div class="col-4"> 
+            <div class="col-md-4"> 
                 <div class=" cards">
                 <img  src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt="picture 1" height="200px" width="200px" class="shadow">
                 </div>
                 
             </div>
-            <div class="col-8">
+            <div class="col-md-8">
                                 <table class="table">
                     <thead class="thead-dark">
                         <tr>
@@ -170,13 +171,13 @@
         <hr>
         <h4 class="text-center" style="font-family: 'Noto Sans Sinhala', sans-serif;">1990 වර්ෂයේ ආරම්භක අධ්‍යක්ෂක මණ්ඩලය.</h4>
         <div class="row">
-            <div class="col-4"> 
+            <div class="col-md-4"> 
                 <div class=" cards">
                 <img  src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt="picture 1" height="200px" width="200px" class="shadow">
                 </div>
                 
             </div>
-            <div class="col-8">
+            <div class="col-md-8">
                                 <table class="table">
                     <thead class="thead-dark">
                         <tr>
