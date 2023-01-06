@@ -1,0 +1,122 @@
+body{
+  border-color: rgb(25,27,29);
+  background: url(../img/BG.png),url(../img/Background\ color\ Grading.jpg)  ;
+   background-size: 70%,cover;
+   background-position: center;
+   background-repeat: no-repeat,no-repeat;
+   font-family: 'Noto Sans Sinhala', sans-serif;
+
+ 
+}
+.containerforhead{
+  padding: 30px;
+  height:200px;
+  background-color: rgba(0, 0, 0, 0.104);
+  border-radius: 0px 20px 0px 20px;
+  scrollbar-shadow-color: blue;
+  color: rgba(34, 34, 34, 0.753);
+}
+.containerforhead:hover{
+  
+  border: solid 2px rgba(0, 0, 0, 0.108);
+  transition-duration: 0.5s;
+ font-weight: bold;
+ color: #222;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition-duration: 0.5s;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  margin: auto;
+  padding: 0;
+  
+  align-items: center;
+  width: 20%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.4;
+  border: solid 2px rgb(0, 0, 0);
+}
+
+.active,
+.demo:hover {
+  transition-duration: 0.5s;
+  opacity: 1;
+  border: solid 2px rgba(0, 0, 0, 0.104);
+}
+

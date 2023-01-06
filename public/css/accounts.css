@@ -1,0 +1,22 @@
+body{
+    border-color: rgb(25,27,29);
+    background: url(../img/BG.png),url(../img/Background\ color\ Grading.jpg)  ;
+     background-size: 70%,cover;
+     background-position: center;
+     background-repeat: no-repeat,no-repeat;
+     font-family: 'Noto Sans Sinhala', sans-serif;
+   
+  }
+  .acctype{
+    background: rgb(36,36,36);
+background: linear-gradient(90deg, rgba(36, 36, 36, 0.155) 0%, rgba(29, 29, 29, 0.056) 50%, rgba(0,212,255,0) 100%);
+   
+
+  }
+  h3{
+    font-weight: bold;
+  }
+  p{
+    font-weight: bold;
+  }
+  
